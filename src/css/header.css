@@ -1,0 +1,32 @@
+.nav-list {
+  display: none;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  display: block;
+  line-height: 0;
+  padding: 18px 0;
+}
+
+.burger-btn > .icon {
+  display: block;
+  fill: var(--color-scheme-1-text);
+}
+
+.burger-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
