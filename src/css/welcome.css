@@ -52,8 +52,6 @@
     justify-content: center;
     gap: 8px;
     padding: 10px 78px;
-    margin-bottom: 32px;
-
 }
 
 .welcome-svg{
@@ -65,6 +63,7 @@
     width: 100%;
     height: 162px;
     object-fit: cover;
+    margin-top: 32px;
 }
 
 .welcome-link:hover,
@@ -101,7 +100,6 @@
             
     .welcome-img {
                 height: 364px;
-                margin-top: 32px;
             }
     .welcome-link {
         padding-inline: 24px;
