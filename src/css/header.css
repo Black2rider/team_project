@@ -49,6 +49,11 @@
     font-size: 16px;
   }
 
+  .nav-list-item a:hover,
+  .nav-list-item a:focus {
+    opacity: 0.5;
+  }
+
   .nav {
     display: flex;
     align-items: center;
