@@ -22,8 +22,9 @@
 
 .quality-img {
     border-radius: 32px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 32px;
-    margin: 0 auto;
 }
 
 .quality-list-header {
@@ -32,6 +33,6 @@
     margin-bottom: 8px;
 }
 
-.quality-list-paragraph {
+.quality-list-paragraph:not(:last-child) {
     margin-bottom: 24px;
 }
