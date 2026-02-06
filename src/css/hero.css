@@ -65,3 +65,18 @@
 .hero-link:focus {
   opacity: 0.5;
 }
+
+@media screen and (min-width: 768px) {
+  .hero {
+    max-width: 768px;
+    padding: 311px 0;
+  }
+
+  .hero-container {
+    margin: 0;
+  }
+
+  .hero-title {
+    width: 560px;
+  }
+}
