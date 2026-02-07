@@ -1,0 +1,46 @@
+<section class="subscribe section container">
+  <div class="subscribe-content">
+    <h2 class="subscr-title">Join Our Coffee Community</h2>
+    <p class="subscr-text">
+      Experience the joy of coffee delivered right to your door. Sign up today!
+    </p>
+    <div class="subscr-block">
+      <form class="subscr-form">
+        <div class="subscr-validation">
+          <input
+            class="subscr-input"
+            type="email"
+            name="email"
+            id="subscr-email"
+            placeholder="Your Email Here"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+          />
+          <p class="invalid-text">Error Text</p>
+        </div>
+        <button class="subscr-button" type="submit">
+          Subscribe
+          <svg class="subscr-icon" width="24" height="24">
+            <use href="../img/sprite.svg#icon-shevron"></use>
+          </svg>
+        </button>
+      </form>
+      <p class="agree-text">
+        By clicking Get Started, you agree to our Terms and Conditions.
+      </p>
+    </div>
+  </div>
+  <div class="subscr-img-wrap">
+    <img
+      class="subscr-img"
+      src="/img/subscibe/subscribe_1x.jpg"
+      srcset="
+        /img/subscibe/subscribe_1x.jpg 1x,
+        /img/subscibe/subscribe_2x.jpg 2x
+      "
+      width="288"
+      height="400"
+      alt="Coffee Community"
+    />
+  </div>
+</section>
