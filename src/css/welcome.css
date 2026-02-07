@@ -1,0 +1,136 @@
+
+
+.section-welcome {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+.welcome-text {
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 16px;
+
+}
+
+.welcome-title {
+    font-family: "Aboreto", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+}
+
+.welcome-content{
+    margin-bottom: 32px;
+}
+
+.welcome-description {
+    color: #0b0803;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.welcome-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+
+    border-radius: 100px;
+    height: 44px;
+    box-shadow: 0 1px 2px 0 rgba(11, 8, 3, 0.05), inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(11, 8, 3, 0.15), inset 0 2px 1px 0 rgba(255, 255, 255, 0.25), inset 0 32px 24px 0 rgba(255, 255, 255, 0.05);
+    background: #6f4e37;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 78px;
+    margin: 0 auto;
+
+    transition:
+            opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.welcome-svg{
+    fill: #fff;
+}
+.welcome-wrapper {
+    margin-bottom: 32px;
+}
+.welcome-img{
+    border-radius: 40px;
+
+}
+
+
+
+.welcome-link:hover,
+.welcome-link:focus {
+    opacity: 0.5;
+}
+
+.welcome-link:active {
+    box-shadow: none;
+}
+
+
+@media screen and (min-width: 768px) {
+    .welcome-wrapper{
+            display: flex;
+            gap: 32px;
+            align-items: flex-start;
+            }
+            
+    .welcome-content {
+                width: 336px;
+            }
+            
+    .welcome-divider {
+                width: 336px;
+
+            }
+      
+            
+    .welcome-img-wrapper{
+        width: 704px;
+        height: 396px;
+        
+    }
+
+    .welcome-img{
+        object-fit: cover;
+    }
+  
+    .welcome-link {
+        padding-inline: 24px;
+        display: inline-flex;
+            }
+
+}
+
+
+
+@media screen and (min-width: 1440px) {
+    .welcome-content {
+            width: 640px;
+        }
+    
+    .welcome-divider {
+            width: 640px;
+        }
+    .welcome-wrapper {
+            margin-bottom: 80px;
+    }
+
+    .welcome-img-wrapper {
+        width: 1312px;
+        height: 738px;
+}
+  
+}
+
