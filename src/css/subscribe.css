@@ -149,6 +149,10 @@
     text-align: center;
   }
 
+  .invalid-text {
+    align-self: flex-start;
+  }
+
   .subscr-form {
     align-items: center;
   }
