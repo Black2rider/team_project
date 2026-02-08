@@ -73,7 +73,6 @@
   background-color: #0b0803;
 }
 
-/* змінити колір */
 .contact-link:hover,
 .contact-link-directions:hover {
   color: rgba(11, 8, 3, 0.7);
@@ -143,7 +142,8 @@
     justify-content: center;
     align-items: center;
     gap: 24px;
-    padding: 64px 32px;
+    padding: 64px 64px;
+    margin: 0;
   }
   .contact-item-list {
     display: flex;
@@ -160,7 +160,7 @@
 
   .contact-map {
     flex: 1;
-    max-width: 869px;
+    width: 869px;
     height: 697px;
     border-radius: 40px;
     margin-left: auto;
