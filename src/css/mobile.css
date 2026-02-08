@@ -43,13 +43,8 @@
   background-color: var(--color-coffee-lighter);
 }
 
-.mobile-menu-nav {
-  margin-bottom: auto;
-}
-
 .mobile-menu-item {
   padding-bottom: 32px;
-  font-family: var(--color-neutral-darkest);
   font-size: 16px;
   color: var(--font-family);
 }
