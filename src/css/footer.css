@@ -2,7 +2,7 @@
     background-color: var(--color-coffee);
     padding-top: 24px;
     padding-bottom: 24px;
-
+    
 }
 
 .footer-container {
@@ -19,8 +19,8 @@
     border: 1px solid var(--opacity-neutral-darkest-15);
     border-radius: 40px;
     padding: 32px 46px;
-    max-width: 288px;
-    width: 100%;
+    width: 100% ;
+    max-width: 375px;
     display: flex;
     flex-direction: column;
     justify-content: center;
