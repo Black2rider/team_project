@@ -1,4 +1,4 @@
-.location {
+#location > .container {
   text-align: left;
 }
 
@@ -131,7 +131,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .location {
+  #location > .container {
     display: flex;
     justify-content: center;
     align-items: center;
